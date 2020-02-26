@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: MTIT_ServiceConsumer
+Bundle-SymbolicName: MTIT_ServiceConsumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: mtit_serviceconsumer.ServiceActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: MTIT_ServiceConsumer
+Import-Package: com.mtit.service,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: mtit_serviceconsumer
